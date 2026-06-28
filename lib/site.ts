@@ -9,7 +9,7 @@ export const siteConfig = {
   email: "rahulgupta.sidhi986@gmail.com",
   phone: "+916260530114",
   location: "Delhi NCR, India",
-  github: "https://github.com/rahulastrokapoor-sudo",
+  github: "https://github.com/Rahul-986",
   linkedin: process.env.NEXT_PUBLIC_LINKEDIN_URL || "",
 };
 

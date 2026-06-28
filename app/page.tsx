@@ -10,7 +10,7 @@ import {
   Server, Wrench, Layers, Zap, ChevronRight, ArrowRight, Globe,
 } from "lucide-react";
 
-const GITHUB_URL = "https://github.com/rahulastrokapoor-sudo";
+const GITHUB_URL = "https://github.com/Rahul-986";
 const LINKEDIN_URL = process.env.NEXT_PUBLIC_LINKEDIN_URL || "";
 
 function Github({ size = 24 }: { size?: number }) {
@@ -1078,7 +1078,7 @@ export default function App() {
                 { icon: <Mail size={17} />, label: "Email", value: "rahulgupta.sidhi986@gmail.com", href: "mailto:rahulgupta.sidhi986@gmail.com" },
                 { icon: <Phone size={17} />, label: "Phone", value: "+91 6260530114", href: "tel:+916260530114" },
                 { icon: <MapPin size={17} />, label: "Location", value: "Delhi, India", href: null },
-                { icon: <Github size={17} />, label: "GitHub", value: "github.com/rahulastrokapoor-sudo", href: GITHUB_URL },
+                { icon: <Github size={17} />, label: "GitHub", value: "github.com/Rahul-986", href: GITHUB_URL },
                 ...(LINKEDIN_URL ? [{ icon: <Linkedin size={17} />, label: "LinkedIn", value: "LinkedIn profile", href: LINKEDIN_URL }] : []),
               ].map((item) => (
                 <motion.div
